@@ -76,6 +76,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center mt-40 mx-20 border-[1px] rounded-lg relative">
+      <h1 className="mt-10 font-semibold text-3xl">Đoán mã Hex của màu dưới đây</h1>
       <div
         className="w-full mt-10 aspect-video max-w-lg max-h-md rounded-md"
         ref={colorPreviewer}
